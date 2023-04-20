@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Sharing.Http.Server/1.0.0": {
+        "dependencies": {
+          "Sharing.API": "1.0.0",
+          "Sharing.Services.Logging": "1.0.0"
+        },
+        "runtime": {
+          "Sharing.Http.Server.dll": {}
+        }
+      },
+      "Sharing.API/1.0.0": {
+        "runtime": {
+          "Sharing.API.dll": {}
+        }
+      },
+      "Sharing.Services.Logging/1.0.0": {
+        "runtime": {
+          "Sharing.Services.Logging.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sharing.Http.Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sharing.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sharing.Services.Logging/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
